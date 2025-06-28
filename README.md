@@ -21,10 +21,17 @@ Decomposition Plot: Visualizes the time series decomposed into its observed, tre
 Forecast Plot: Displays the historical data along with forecasted values and 80%/95% prediction intervals. The forecast model (ARIMA or ETS) is chosen automatically based on data characteristics.
 Forecast Data Table: Presents the numerical point forecasts and prediction intervals for the specified forecast horizon.
 Model Information: Shows details of the fitted time series model (e.g., ARIMA or ETS parameters).
+
+
 Statistical Methods
+
 Descriptive Statistics: Calculation of sums, averages, and counts displayed in value boxes and used for visualizations.
+
 Data Aggregation: Dynamic grouping and summarization of data based on user filters for trend and comparison plots.
+
 Geospatial Visualization: Choropleth maps using Leaflet to display regional production data, with animation for spatio-temporal analysis.
+
 Time Series Decomposition: Utilizes STL (Seasonal and Trend decomposition using Loess) or classical decomposition methods to identify underlying patterns in the data.
+
 Inferential Statistics (Forecasting): Employs automated ARIMA (Autoregressive Integrated Moving Average) or ETS (Error, Trend, Seasonality / Exponential Smoothing) models from the `forecast` package to predict future production volumes. Prediction intervals provide a measure of uncertainty for these forecasts.
-About the Creator
+
